@@ -185,7 +185,43 @@ h1{
     clear: both;
 }
 
+.homeimage{
+width:100%;
+float:left;
+}
+.p1{
+	width:40%;
+	
+}
+.p2{
+	width:50%;
+	
+}
+.p3{
+	width:50%;
+	
+}
+/* .picture3{ */
+	/* margin-left:50%; */
+	/* width:23%; */
+	
+/* } */
+/* Create three equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	position:relative;
+}
 
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 @media screen and (max-width:680px) {
