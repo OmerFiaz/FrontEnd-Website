@@ -39,7 +39,7 @@ ul.topnav li.icon {display: none;}
 	
 }
 #bit{
-	width:30%;
+	width:50%;
 	margin-left:85%;
 	margin-top:0%;
 	
@@ -139,16 +139,17 @@ h1{
 	display:none;
 	width:200%;
 	height:200px;
+	margin-left:20%;
 	
 	}
 
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-left {
-	margin-left:0;
+	margin-left:20%;
 	
 	}
 	.w3-right {
-	margin-left:20%;
+	margin-left:212%;
 	margin-top:-10%;
 	
 	}
@@ -161,6 +162,29 @@ h1{
 	width:23%;
 	margin-left:10%;
 }
+.college3{
+	width:23%;
+	height:150px;
+	margin-left:10%;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	position:relative;
+	color:black;
+}
+* {
+    box-sizing: border-box;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 
 
