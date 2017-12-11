@@ -1,7 +1,8 @@
 
 body {
-	margin:0;
 	background:white;
+	margin-left:10em;
+	margin-right:15em;
 	}
 ul.topnav {
   list-style-type: none;
@@ -9,8 +10,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color:#000000;
-  margin-left:30%;
-  margin-right:30%;
+
   margin-top:0%;
 
 
@@ -112,6 +112,56 @@ h1{
 	margin-top:-10%;
 	
 }
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+#jsshowhide p {
+  display: none;
+}
+#jsshowhide ul {
+  display: none;
+}
+#jsshowhide h3 {
+  cursor: pointer;
+  display: inline;
+}
+
+.plus {
+  display: inline;
+}
+.minus {
+  display: none;
+}
+.mySlides {
+	display:none;
+	width:200%;
+	height:200px;
+	
+	}
+
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-left {
+	margin-left:0;
+	
+	}
+	.w3-right {
+	margin-left:20%;
+	margin-top:-10%;
+	
+	}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.college1{
+	width:23%;
+}
+.college2{
+	width:23%;
+	margin-left:10%;
+}
+
 
 
 @media screen and (max-width:680px) {
@@ -183,9 +233,7 @@ h1{
     margin: auto;
 	margin-left:2%;
 }
-h2{
-	margin-top:20%;
-}
+
 #bit{
 	width:100%;
 	margin-left:43%;
@@ -193,28 +241,20 @@ h2{
 	
 }
 
-	
-	
     ul.topnav.responsive {position: relative;}
     ul.topnav.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
-  }
+}
   ul.topnav.responsive li {
     float: none;
     display: inline;
-  }
+ }
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
-  }
-  
-  
-  
-  
-  
-  
+ }
   
 
 }
