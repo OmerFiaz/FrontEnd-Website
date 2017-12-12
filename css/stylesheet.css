@@ -44,22 +44,6 @@ ul.topnav li.icon {display: none;}
 	margin-top:0%;
 	
 }
-#flag{
-	width:20%;
-	margin-left:25%;
-	margin-top:2%;
-}
-#france{
-	width:18%;
-	margin-left:25%;
-	margin-top:8%;
-}
-
-#england{
-	width:20%;
-	margin-left:25%;
-	margin-top: 10%;
-}
 
 
 
@@ -70,47 +54,15 @@ h1{
 	margin-left:550px;
 	margin-top:100px;
 }
-#txtpak{
-	border: 3px solid black;
-    padding: 10px 10px;
-    background: white;
-    width: 300px;
-    height: 120px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    margin: auto;
-	margin-left:50%;
-	margin-top:-15%;
-}
-
-#txtfrance
-{
-	border: 3px solid black;
-    padding: 10px 10px;
-    background: white;
-    width: 300px;
-    height: 120px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    margin: auto;
-	margin-left:50%;
-	margin-top:-15%;
-}
-#txtengland{
-	border: 3px solid black;
-    padding: 10px 10px;
-    background: white;
-    width: 300px;
-    height: 120px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    margin: auto;
-	margin-left:50%;
-	margin-top:-10%;
-	
+footer{
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-top:2%;
+	bottom:0;
+	background-color:black;
+	color:white;
+	text-align:center;
+	position:relative;
 }
 .show {
   display: block !important;
@@ -155,18 +107,19 @@ h1{
 	}
 .w3-badge {height:13px;width:13px;padding:0}
 
-.college1{
-	width:23%;
-}
+
+
 .college2{
-	width:23%;
-	margin-left:10%;
+	width:20%;
+	margin-left:5%;
+	height:170px;
 }
-.college3{
-	width:23%;
-	height:150px;
-	margin-left:10%;
+.college1{
+	width:20%;
+
+	height:170px;
 }
+
 .column {
     float: left;
     width: 30%;
@@ -198,19 +151,24 @@ float:left;
 	
 }
 .p3{
-	width:50%;
+	width:35%;
 	
 }
-/* .picture3{ */
-	/* margin-left:50%; */
-	/* width:23%; */
-	
-/* } */
-/* Create three equal columns that floats next to each other */
+.regentcollege{
+	margin-left:60%;
+	margin-top:-10%;
+	width:30%;
+}
+.dmu{
+	width:50%;
+	margin-left:300%;
+	margin-top:-30%;
+}
+
 /* Create three equal columns that floats next to each other */
 .column1 {
     float: left;
-    width: 33.33%;
+    width: 33.3%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
 	position:relative;
@@ -237,62 +195,6 @@ float:left;
 		margin:2%;
 		width:100%;
 	}
-#flag{
-	width:70%;
-	margin-left:2%;
-	margin-top:-4%;
-}
-#france{
-	width:68%;
-	margin-left:2%;
-	margin-top:5%;
-}
-
-#england{
-	width:70%;
-	margin-left:2%;
-	margin-top: 8%;
-}
-#txtpak{
-	border: 3px solid black;
-    padding: 10px 10px;
-    background: white;
-    width: 300px;
-    height: 120px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    margin: auto;
-	margin-left:2%;
-
-}
-
-#txtfrance
-{
-	border: 3px solid black;
-    padding: 10px 10px;
-    background: white;
-    width: 300px;
-    height: 120px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    margin: auto;
-	margin-left:2%;
-
-}
-#txtengland{
-	border: 3px solid black;
-    padding: 10px 10px;
-    background: white;
-    width: 300px;
-    height: 120px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    margin: auto;
-	margin-left:2%;
-}
 
 #bit{
 	width:100%;
