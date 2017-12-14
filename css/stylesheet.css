@@ -45,14 +45,12 @@ ul.topnav li.icon {display: none;}
 	
 }
 
-
-
 h1{
 	color:black;
 	font-family:Times New Roman;
 	font-size:20px;
-	margin-left:550px;
-	margin-top:100px;
+	text-align:center;
+	margin-top:60px;
 }
 footer{
 	padding-top:1%;
@@ -180,7 +178,50 @@ float:left;
     display: table;
     clear: both;
 }
+figure {
+  float:left;
+  
+    width: 200px;
+	height: 100px;
+	background-repeat: no-repeat;
+    background-size: 50px 30px;
+	padding-top:4%;
+}
 
+figure img {
+  width: 100%;
+  height: 250px;
+  background: #eee;
+  margin-bottom: -4em;
+  display: inline-block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 2em;
+  line-height: 1.2em;
+  padding: .15em;
+  transform: translateY(2em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+
+/* 
+  These styles are applied to the `figcaption` element when hovering 
+  over the`figure` element. The `transition` property on `figcaption` 
+  above is then applied to `all` these hover styles, over 0.5 seconds.
+*/
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
+}
+.fav{
+	width:100%;
+	height:400px;
+}
 
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
@@ -203,6 +244,7 @@ float:left;
 	
 }
 
+/*Navigation---*/
     ul.topnav.responsive {position: relative;}
     ul.topnav.responsive li.icon {
     position: absolute;
@@ -217,6 +259,8 @@ float:left;
     display: block;
     text-align: left;
  }
-  
+
+
+
 
 }
