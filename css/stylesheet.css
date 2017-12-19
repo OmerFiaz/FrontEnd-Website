@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  background-color: #eee; /* note CSS spelling of 'color' */
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+#container {
+  /*
+    these rules make the whole page narrower and centre it on screen: 
+    if you uncmment them and reload the browser, comment them out again
+  */
+  /*width: 900px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+header {
+  background-color: #fff;
+  color: #fff;
+}
+
+
+nav {
+  /* you can use percentages for widths */
+  /*width: 150px;*/
+  font-size: 1.5em;
+  line-height: 2.5em;
+  text-align: center;
+  background-color: #9a9;
+  /*border-bottom: 2px solid #565;*/
+}
+nav a:link,
+nav a:visited {
+  /*
+    20% with 5 items will fill the width - use box-sizing
+    (see bottom of this file) if necessary
+  */
+  width: 20%;
+  display: inline-block;
+  background-color: #9a9;
+  text-decoration: none;
+  color: #000;
+
+  /*border-bottom: 4px solid #565;*/
+  transition: all 0.5s;
+}
+nav a:hover,
+nav a.here  {
+  background-color: #676;
+  color: #fff;
+  /*border-bottom: 4px solid #9aa;*/
+}
+nav a.here {
+  background-color: #565;
+}
+
+main {
+  /* you can use percentages for widths */
+  /*width: 490px;*/
+  clear: both;
+  padding: 1em 30px 2em; /* top, right-left, bottom */
+  background-color: #fff;
+  font-size: 1.25em;
+  line-height: 1.85em;
+  overflow: auto;
+}
+
+section {
+  clear: both;
+  margin-top: 1.5em;
+  overflow: auto;
+}
+section h2 {
+  font-size: 1.25em;
+  margin: 0;
+  border-top: 2px solid #676;
+  color: #464;
+}
+section:first-child h2 {
+  border-top: none;
+}
+/* SEE http://www.w3schools.com/cssref/sel_firstchild.asp */
+
+section p {
+  margin: 1em 0 0; /* top, right and left, bottom */
+}
+section a[href="#"] {
+  display: block;
+  color: #999;
+  text-align: right;
+}
+/* SEE http://www.w3schools.com/css/css_attribute_selectors.asp */
+
+
+
+footer {
+  clear: both;
+  border-top: 2px solid #676;
+  padding: 0.5em 30px; /* top-bottom, right-left */
+  background-color: #9a9;
+  text-align: center;
+}
+/*#container,
+header,
+main,
+nav,
+section,
+figure,
+footer {
+  box-sizing: border-box;
+}*/
+
+.homeimage{
+width:100%;
+float:left;
+}
+/* Create three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 27%;
+    padding: 20px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	position:relative;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.p1{
+	width:30%;
+	margin-left:20%;
+	
+}
+.p2{
+	width:35%;
+	margin-left:20%;
+
+	
+}
+.p3{
+	width:30%;
+	margin-left:20%;
+	
+}
+.pakistan{
+	margin-left:20%;
+	
+}
+.France{
+	margin-left:20%;
+	
+}
+.England{
+	margin-left:20%;
+	
+}
+#bit{
+	width:30%;
+	margin-left:38%;
+	margin-top:0%;
+	
+}
+
+}
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 500px) {
+ nav {
+  /* you can use percentages for widths */
+  /*width: 150px;*/
+  font-size: 0.5em;
+  line-height: 2.5em;
+  text-align: center;
+  background-color: #9a9;
+  /*border-bottom: 2px solid #565;*/
+}
+
+
+}
+/* END FIRST BREAKPOINT */
+
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+	body{
+		margin:0 auto;
+		
+	}
+#bit{
+	width:15%;
+	margin-left:43%;
+	margin-top:0%;
+	
+}
+.p1{
+	width:20%;
+	margin-left:20%;
+	
+}
+.p2{
+	width:30%;
+	margin-left:20%;
+
+	
+}
+.p3{
+	width:20%;
+	margin-left:20%;
+	
+}
+.pakistan{
+	margin-left:20%;
+	
+}
+.France{
+	margin-left:20%;
+	
+}
+.England{
+	margin-left:20%;
+	
+}
+.homeimage{
+width:70%;
+margin-left: 15%;
+}
+.column1 {
+    margin-left:8%;
+    width: 20%;
+    padding: 20px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	position:relative;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+}
+
