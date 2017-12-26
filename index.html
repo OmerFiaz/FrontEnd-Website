@@ -1,81 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Omer LIFE</title>
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <meta charset="utf-8">
+  <title>basic responsive example</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <div id="container">
 
-    <header>
+<header>
+
      <div id="title">
-<img id="bit" src="img/Bitmoji.jpg" alt="bitmoji"/>
+<img id="bit" src="imgs/Bitmoji.jpg" alt="bitmoji"/>
 
 </div>
-    </header>
 
-    <nav>
-      <!-- browsers render the space between 'a' tags, so these are on one line -->
-      <a href="#" class="home">Home</a>
-	  <a href="#education">Eduction</a>
-	  <a href="#Sports">Sports</a>
-	  <a href="#contact">Contact Me</a>
-    </nav>
+  <a id="menu" href="#">Menu</a>
+  <nav id="nav-menu">
+    <a href="#home">Home</a>
+    <a href="#education">Education</a>
+    <a href="#sports">Sports</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
 
-    <main><!-- main content goes inside this tag -->
+</header>
 
-      <section id="home">
-      <img class="homeimage" src="img/homeimage.jpg">
+<main>
+
+  <section id="home">
+ <img class="homeimage" src="imgs/homeimage.jpg">
 	  
 <div class="row1">
   <div class="column1">
     <h2 class="pakistan">Pakistan</h2>
-	<img class="p1" src="img/Picture1.png">
+	<img class="p1" src="imgs/Picture1.png">
     <p>I was born in pakistan and i lived there for  for 11 years.</p>
-	
   </div>
+  
   <div class="column1">
     <h2 class="France">France</h2>
-	<img class="p2" src="img/Picture2.png">
-    <p>I moved to france when i was 11 years old. I lived in france for 5 years and during these 5 years i used to attend a college where i enjoyed my time learning and meeting people from diffrent walks of life.</p>
+	<img class="p2" src="imgs/Picture2.png">
+    <p>I moved to france when i was 11 years old.</p>
   </div>
+  
   <div class="column1">
     <h2 class="England">England</h2>
-	<img class="p3" src="img/Picture3.png">
-    <p>I moved to England in summer of 2010 and since then i have been living here with my fmaily. i attended a college untill summer 2014 and then joined Demonfort University</p>
+	<img class="p3" src="imgs/Picture3.png">
+    <p>I moved to England in summer of 2010 and since niversity</p>
   </div>
 </div>
-	
+  </section>
 
-        <a href="#">TOP</a>
-      </section>
+  <section id="education">
+   <section id="jsshowhide">
+      <h2>Education in Pakistan</h2>
+	  <p>I was born in Pakistan and The first ever school i attended was in Pakistan. I used to study these subject on a regular basis </p>
+      <article>
+        <span id="i01js"></span>
+        <h3 id="q01js">Module</h3>
+        <ul id="a01js">
+		<li>Urdu Language</li>
+		<li>History</li>
+		<li>Science</li>
+		<li>English</li>
+		</ul>
+      </article>
+<div class="w3-content w3-display-container" style="max-width:200px">
+     <img class="mySlides" src="imgs/school1.png">
+     <img class="mySlides" src="imgs/School2.png">
+     <img class="mySlides" src="imgs/Image3.jpg">
+     <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+     <hr>
+     <h2>Education in france</h2>
+     <p>When i was 11 year old i moved to France with my family. i started attended college there and i really enjoyed my time there</p>
+      <article>
+        <span id="i02js"></span>
+        <h3 id="q02js">College</h3>
+		
+		<ul id="a02js">
+		<li>French Language</li>
+		<li>History</li>
+		<li>Music</li>
+		<li>Sports</li>
+		</ul>
+        
+      </article>
+	  <img class="college1" src="imgs/college1.png">
+	  <img class="college2" src="imgs/college2.jpg">
+	   <img class="college3" src="imgs/college3.jpg">
+	  
+	  
+	  <hr>
+     <h2>Education in England</h2>
+      <article>
+        <span id="i03js"></span>
+        <h3 id="q03js">College</h3>
+		<ul id="a03js">
+		<li>ESOL English</li>
+		<li>Graphics</li>
+		<li>ICT</li>
+		<li>French</li>
+		</ul>
+        
+         </article>
+	  
+	      <article>
+        <span id="i04js"></span>
+        <h3 id="q04js">University</h3>
+        <ul id="a04js">
+	<div class="row">
+  <div class="column">
+    <h2>1st Year</h2>
+    <li>Sdasjdjasjna asdaidiasdoas doadiasjdas dhsa jsadiasdasd asdi asdasdiasud a.</li>
+  </div>
+  <div class="column">
+    <h2>2nd Year</h2>
+    <li>Some text..daidjaisd idasdd as oidasdioasidaidoad asidas idioasidaso iasid  </li>
+  </div>
+  <div class="column">
+    <h2>3rd Year</h2>
+    <li>Some daodjid idoaidiado ispdoas idsdasiodiaodapodaaskdladas dkdasdoidao adoasdi d dioadaod idoi..</li>
+  </div>
+</div>
+		</ul>
+        </article>
+   
+   
+   
+   
+  </section>
 
-      <section id="education">
-        <h2>Eduction</h2>
-     
-        <a href="#">TOP</a>
-      </section>
+  <section id="sports">
+    <h2>Sports</h2>
+    <p>some text and content</p>
+  </section>
 
-      <section id="Sports">
-        <h2>Sports</h2>
-    
-        <a href="#">TOP</a>
-      </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>some text and content</p>
+  </section>
 
-      <section id="contact">
-        <h2>Contact ME</h2>
-    
-        <a href="#">TOP</a>
-      </section>
+</main>
 
-    </main><!-- end of the main tag -->
-
-    <footer> © Omer Fiaz </footer>
-
-  </div><!-- end of the container div -->
-
+<script src="js/scripts.js"></script>
+<script src="js/universitymodule.js"></script>
+<script src="js/slideshow.js"></script>
 </body>
 </html>

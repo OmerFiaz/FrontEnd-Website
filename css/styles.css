@@ -1,0 +1,313 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+
+body {
+  margin:0;
+  padding:0;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+header {
+  background: #ccc;
+  color: #444;
+}
+nav {
+  background: #aaa;
+  display: none;
+}
+nav a {
+  padding: 1em;
+  display: block;
+}
+#menu {
+  padding: 1em;
+  background: #fff;
+  display: block;
+}
+.show-menu {
+  display: block;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em;
+}
+main {
+  background: #eee;
+  padding: .5em;
+}
+section {
+  background: #888;
+}
+
+.homeimage{
+width:100%;
+float:left;
+}
+#bit{
+	width:20%;
+	margin-left:0%;
+	margin-top:0%;
+}
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	position:relative;
+}
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.p1{
+	width:60%;
+	margin-left:20%;
+	
+}
+.p2{
+	width:60%;
+	margin-left:20%;
+}
+.p3{
+	width:50%;
+	margin-left:20%;
+	
+}
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+#jsshowhide p {
+  display: none;
+}
+#jsshowhide ul {
+  display: none;
+}
+#jsshowhide h3 {
+  cursor: pointer;
+  display: inline;
+}
+
+.plus {
+  display: inline;
+}
+.minus {
+  display: none;
+}
+.college1{
+	width:23%;
+}
+.college2{
+	width:23%;
+	
+}
+.college3{
+	width:23%;
+	height:65px;
+
+}
+.mySlides {
+	display:none;
+	height:200px;
+	margin-left:0%;
+	width:180%;
+	
+	
+	}
+
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-left {
+	margin-left:10%;
+	/* margin-top:-10%; */
+	color:black;
+	
+	}
+	.w3-right {
+	margin-left:100%;
+	margin-top:-10%;
+	color:black;
+	
+	}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 500px) {
+  header {
+    background: #444;
+    color: #ccc;
+  }
+  nav a {
+    width: 44%;
+    display: inline-block;
+  }
+  nav a:hover {
+    background: #777;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    background: #444;
+    color: #999;
+  }
+  section:hover {
+    background: #666;
+  }
+  .column1 {
+    float: left;
+    width: 27%;
+    padding: 20px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	position:relative;
+}
+#bit{
+	width:10%;
+	margin-left:0%;
+	margin-top:0%;
+}
+.p1{
+	width:60%;
+	margin-left:20%;
+	
+}
+.p2{
+	width:65%;
+	margin-left:20%;
+
+	
+}
+.p3{
+	width:60%;
+	margin-left:20%;
+	
+}
+.mySlides {
+	display:none;
+	width:200%;
+	height:200px;
+	margin-left:55%;
+	
+	}
+	.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-left {
+	margin-left:10%;
+	/* margin-top:-10%; */
+	color:white;
+	
+	}
+	.w3-right {
+	margin-left:250%;
+	margin-top:-10%;
+	color:white;
+	
+	}
+	.college3{
+	width:23%;
+	height:115px;
+
+}
+	
+	
+	
+}
+/* END FIRST BREAKPOINT */
+
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+  header {
+    background: #222;
+    color: #ccc;
+  }
+  nav {
+    display: block;
+  }
+  nav a {
+    line-height: 3em;
+    width: inherit;
+  }
+  #menu {
+    display: none;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section {
+    width: 90%;
+    margin: 1em 1% 1em 1%;
+    background: #222;
+    border-color: #666;
+    font-size: 1.5em;
+  }
+  .column1 {
+    float: left;
+    width: 27%;
+    padding: 20px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	position:relative;
+}
+.p1{
+	width:40%;
+	margin-left:20%;
+	
+}
+.p2{
+	width:50%;
+	margin-left:20%;
+
+	
+}
+.p3{
+	width:35%;
+	margin-left:20%;
+	
+}
+.mySlides {
+	display:none;
+	width:200%;
+	height:200px;
+	margin-left:120%;
+	
+	}
+	.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-left {
+	margin-left:110%;
+	/* margin-top:-10%; */
+	color:white;
+	
+	}
+	.w3-right {
+	margin-left:300%;
+	margin-top:-22%;
+	color:white;
+	
+}
+
+#jsshowhide{
+	
+}
+.college3{
+	width:23%;
+	height:160px;
+
+}
+}
+/* END SECOND BREAKPOINT */
