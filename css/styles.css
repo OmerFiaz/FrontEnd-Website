@@ -57,7 +57,7 @@ float:left;
     float: left;
     width: 20%;
     padding: 20px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
 	position:relative;
 }
 /* Clear floats after the columns */
@@ -138,6 +138,68 @@ float:left;
 	
 	}
 .w3-badge {height:13px;width:13px;padding:0}
+.regentcollege{
+	margin-left:60%;
+	margin-top:0%;
+	width:30%;
+}
+.dmu{
+	width:30%;
+	margin-left:15%;
+}
+.top {
+  display: block;
+  text-align: right;
+  line-height: 1.75em;
+  padding-right: 0.5em;
+}
+.top:hover {
+  background: rgba(200,200,200,0.96);
+  color: #fff;
+}
+figure {
+  float:left;
+    width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+    background-size: 50px 30px;
+	position:inline-block;
+	margin-left:5%;
+	padding-top:4%;
+}
+
+figure img {
+  width: 90%;
+  height: 100px;
+  background: #eee;
+  margin-bottom: -4em;
+  display: inline-block;
+}
+
+figcaption {
+     box-sizing: border-box;
+    height: 1.8em;
+    line-height: 1.2em;
+    padding: .25em;
+    transform: translateY(5em);
+    opacity: 0.78;
+    transition: all .5s;
+    text-align:center;
+	font-size:0.7em;
+}
+
+
+figure:hover figcaption {
+  transform: translateY(0em);
+ 
+  opacity: .78;
+}
+.fav{
+	width:100%;
+	height:400px;
+}
+
+
 
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -167,14 +229,12 @@ float:left;
     background: #444;
     color: #999;
   }
-  section:hover {
-    background: #666;
-  }
+
   .column1 {
     float: left;
     width: 27%;
     padding: 20px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
 	position:relative;
 }
 #bit{
@@ -208,7 +268,7 @@ float:left;
 	.w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-left {
 	margin-left:10%;
-	/* margin-top:-10%; */
+
 	color:white;
 	
 	}
@@ -216,12 +276,34 @@ float:left;
 	margin-left:250%;
 	margin-top:-10%;
 	color:white;
-	
 	}
 	.college3{
 	width:23%;
 	height:115px;
 
+}
+figure {
+  float:left;
+    width: 90px;
+	height: 100px;
+	background-repeat: no-repeat;
+    background-size: 50px 30px;
+	position:inline-block;
+	margin-left:5%;
+	padding-top:9%;
+}
+
+
+figcaption {
+     box-sizing: border-box;
+    height: 1.8em;
+    line-height: 1.2em;
+    padding: .25em;
+    transform: translateY(5em);
+    opacity: 0.78;
+    transition: all .5s;
+    text-align:center;
+	font-size:0.7em;
 }
 	
 	
@@ -255,13 +337,13 @@ float:left;
     margin: 1em 1% 1em 1%;
     background: #222;
     border-color: #666;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .column1 {
     float: left;
     width: 27%;
     padding: 20px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
 	position:relative;
 }
 .p1{
@@ -290,7 +372,6 @@ float:left;
 	.w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-left {
 	margin-left:110%;
-	/* margin-top:-10%; */
 	color:white;
 	
 	}
@@ -309,5 +390,65 @@ float:left;
 	height:160px;
 
 }
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px; 
+	position:relative;
+	color:white;
+}
+.dmu{
+	width:30%;
+	margin-left:0%;
+}
+.top {
+  display: block;
+  text-align: right;
+  line-height: 1.75em;
+  padding-right: 0.5em;
+  color:white;
+}
+figure {
+  float:left;
+  
+    width: 200px;
+	height: 100px;
+	background-repeat: no-repeat;
+    background-size: 50px 30px;
+	padding-top:1%;
+}
+
+figure img {
+  width: 100%;
+  height: 250px;
+  background: #eee;
+  margin-bottom: -4em;
+  display: inline-block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 7em;
+  line-height: 1.2em;
+  padding: .15em;
+  transform: translateY(2em);
+  background: black;
+  opacity: 0;
+  transition: all .5s;
+}
+
+
+figure:hover figcaption {
+  transform: translateY(0em);
+
+  opacity: .78;
+}
+.fav{
+	width:100%;
+	height:400px;
+}
+
+
 }
 /* END SECOND BREAKPOINT */
