@@ -240,6 +240,13 @@ input[type=submit]:hover {
 footer{
 font-size: 1.5em;	
 }
+.homeslideshow{
+	max-width:500px;
+	
+}
+.myhomeSlides{
+	width: 100%;
+}
 
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -371,7 +378,10 @@ margin-top:-0%;
 margin-left:20%;
 	
 }
+	.homeslideshow{
+	max-width:800px;
 	
+}
 	
 	
 }
@@ -548,6 +558,15 @@ margin-top:-0%;
 margin-left:20%;
 	
 }
+	.homeslideshow{
+	max-width:1000px;
+	
+}
+.myhomeSlides{
+	width: 154%;
+	height:420px;
+}
+	
 
 
 }
