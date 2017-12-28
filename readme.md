@@ -22,9 +22,24 @@ For user testing i asked one of my friend to check my website.My friend told me 
 
 <img src="https://user-images.githubusercontent.com/23192173/34419037-7c7de678-ebf9-11e7-8f15-d1bd693377a4.jpeg" width="500px" alt=" User Testing" />
 
+#### 3. Responsive Design of website 
+
+These are the screenshots  i took of my website in mobile tablet and desktop view.
+
+<img src="https://user-images.githubusercontent.com/23192173/34419606-afeffbc4-ebfc-11e7-9fe2-14a6c0cca5f4.PNG" width="350px" alt="mobile view of website" />
 
 
+<img src="https://user-images.githubusercontent.com/23192173/34419680-14615b2a-ebfd-11e7-88ed-25a74caf3d67.PNG" width="350px" alt="tablet view of website" />
 
+<img src="https://user-images.githubusercontent.com/23192173/34419722-546c3a14-ebfd-11e7-82a9-4ea9414d4289.PNG" width="350px" alt="Desktop view of website" />
+
+#### 4. HTML, CSS and Javascript
+
+<img src="https://user-images.githubusercontent.com/23192173/34420230-5d90c116-ec00-11e7-9aca-c414995aaff3.PNG" width="350px" alt="Screenshot of HTML validation" />
+
+<img src="(https://user-images.githubusercontent.com/23192173/34420258-8d7a57e8-ec00-11e7-90db-01ee0b7ef3fb.PNG" width="350px" alt="Screenshot of CSS validation" />
+
+<img src="https://user-images.githubusercontent.com/23192173/34420245-6e6adb16-ec00-11e7-8161-034a6e08b540.PNG" width="350px" alt="Screenshot of javascript validation" />
 
 
 
