@@ -431,18 +431,18 @@ margin-left:20%;
 	display:none;
 	width:200%;
 	height:200px;
-	margin-left:120%;
+	margin-left:220%;
 	
 	}
 	.w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-left {
-	margin-left:110%;
+	margin-left:220%;
 	color:white;
 	
 	}
 	.w3-right {
-	margin-left:300%;
-	margin-top:-22%;
+	margin-left:410%;
+	margin-top:-15%;
 	color:white;
 	
 }
