@@ -115,6 +115,7 @@ float:left;
 	height:65px;
 
 }
+/*myslides*/
 .mySlides {
 	display:none;
 	height:200px;
@@ -139,7 +140,7 @@ float:left;
 	}
 .w3-badge {height:13px;width:13px;padding:0}
 .regentcollege{
-	margin-left:60%;
+	/* margin-left:60%; */
 	margin-top:0%;
 	width:30%;
 }
