@@ -1,9 +1,7 @@
 ## My website
 Omer Fiaz P114139410
 
-### Module Information
- - CTEC3905 Frontend Development
- - Dave Everitt & Fania Raczinski
+
 
 
 #### 1. Initial Designs
@@ -34,12 +32,17 @@ These are the screenshots  i took of my website in mobile tablet and desktop vie
 <img src="https://user-images.githubusercontent.com/23192173/34419722-546c3a14-ebfd-11e7-82a9-4ea9414d4289.PNG" width="350px" alt="Desktop view of website" />
 
 #### 4. HTML, CSS and Javascript
+ HTML
 
 <img src="https://user-images.githubusercontent.com/23192173/34420230-5d90c116-ec00-11e7-9aca-c414995aaff3.PNG" width="350px" alt="Screenshot of HTML validation" />
 
+CSS
+ 
 <img src="https://user-images.githubusercontent.com/23192173/34420258-8d7a57e8-ec00-11e7-90db-01ee0b7ef3fb.PNG" width="350px" alt="Screenshot of CSS validation" />
 
-<img src="https://user-images.githubusercontent.com/23192173/34420245-6e6adb16-ec00-11e7-8161-034a6e08b540.PNG" width="350px" alt="Screenshot of javascript validation" />
+Javascript
+
+<img src="https://user-images.githubusercontent.com/23192173/34420245-6e6adb16-ec00-11e7-8161-034a6e08b540.PNG" width="400px" alt="Screenshot of javascript validation" />
 
 
 
