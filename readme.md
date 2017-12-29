@@ -49,13 +49,16 @@ Javascript
 #### Refercences 
 
 *Radio Button
+
 https://github.com/CTEC3905/js-show-hide
  
  *css animation effect
  
 https://github.com/CTEC3905/07-lab
  
+ * Automatic Animation and slideshow indicators
  
+ https://www.w3schools.com/w3css/w3css_slideshow.asp
  
  
  
