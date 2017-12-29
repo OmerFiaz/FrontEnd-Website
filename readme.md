@@ -30,13 +30,13 @@ Another problem which i faced was the slide show was not working on the home sec
 
 
 ##### Mobile View
-<img src="(https://user-images.githubusercontent.com/23192173/34435573-9cda2278-ec86-11e7-8837-919acaa7a594.jpeg" width="350px" alt=" This is Mobile View" />
+<img src="https://user-images.githubusercontent.com/23192173/34435573-9cda2278-ec86-11e7-8837-919acaa7a594.jpeg" width="350px" alt=" This is Mobile View" />
 
 ##### Tablet View
 <img src="https://user-images.githubusercontent.com/23192173/34435578-af86e924-ec86-11e7-8ee0-ed5cd656e7ed.jpeg" width="550px" alt=" This  is Tablet View" />
 
 ##### Desktop View
-<img src="(https://user-images.githubusercontent.com/23192173/34435589-bd9073f0-ec86-11e7-877b-7681acf8db14.jpeg" width="500px" alt=" This is Desktop View" />
+<img src="https://user-images.githubusercontent.com/23192173/34435589-bd9073f0-ec86-11e7-877b-7681acf8db14.jpeg" width="500px" alt=" This is Desktop View" />
 
 ####  User testing
 
