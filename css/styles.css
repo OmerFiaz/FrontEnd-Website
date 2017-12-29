@@ -1,11 +1,11 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 
-/* on every section */
+
 body {
   margin:0;
   padding:0;
   background: #222;
-  color: #fff;/*black */
+  color: #fff;
   text-align: center;
 }
 header {
@@ -22,18 +22,18 @@ nav a {
 }
 #menu {
   padding: 1em;
-  background: #fff; /*black */
+  background: #fff; /*this is the black color background */
   display: block;
 }
 .show-menu {
   display: block;
 }
 a {
-  color: #000;/*white */
+  color: #000;/*this is the white */
   text-decoration: none;
 }
 h1 {
-  font-size: 1.5em; /*font size*/
+  font-size: 1.5em; /* this is the font size*/
   margin: 0;
   padding: 1em;
 }
@@ -57,12 +57,12 @@ section {
 }
 .top:hover {
   background: rgba(200,200,200,0.96);
-  color: #fff; /*black */
+  color: #fff; 
 }
 footer{
 font-size: 1.5em;	
 }
-/*end*/
+
 
 /*index page*/
   .column1 {
@@ -102,7 +102,7 @@ font-size: 1.5em;
 	width: 100%;
 }
 
-/*end*/
+
 
 /*education*/
 .show {
@@ -167,7 +167,7 @@ font-size: 1.5em;
 	margin-top:0%;
 	width:30%;
 }
-/*end*/
+
 
 /*sports*/
 figure {
@@ -209,7 +209,7 @@ figure:hover figcaption {
 	width:100%;
 	height:400px;
 }
-/*end*/
+
 
 /*contact*/
 .button{
@@ -248,13 +248,17 @@ input[type=submit]:hover {
     border-radius: 5px;
     padding: 20px;
 }
-/*end*/
-
-
+.fontH{
+	font-size:1em;
+	font-weight:bold;
+}
+ul{
+	list-style:none;
+}
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
-	/*every section*/
+
   header {
     background: #444;
     color: #ccc;
@@ -280,7 +284,7 @@ input[type=submit]:hover {
     background: #444;
     color: #999;
   }
-/*end*/
+
 
 /*index section*/
   .column1 {
@@ -314,9 +318,9 @@ input[type=submit]:hover {
 	max-width:800px;
 }
 
-/*end*/
 
-/*education section*/
+
+/* This is the education section*/
 .mySlides {
 	display:none;
 	width:200%;
@@ -341,9 +345,9 @@ input[type=submit]:hover {
 	height:115px;
 
 }
-/*end*/
 
-/*sports section*/
+
+/* this is the sports section*/
 figure {
   float:left;
     width: 90px;
@@ -365,9 +369,9 @@ figcaption {
     text-align:center;
 	font-size:0.7em;
 }
-/*end*/
 
-/*contact section*/
+
+/* this is  the contact section*/
 input[type=submit] {
     background-color: grey;
     color: white;
@@ -394,9 +398,9 @@ margin-left:20%;
 }
 
 
-/*  The second breakpoint is for the desktop sizw */
+/*  The second breakpoint is for the desktop size */
 @media screen and (min-width: 1000px) {
-	/*  on every section */
+	
   header {
     background: #222;
     color: #ccc;
@@ -431,7 +435,7 @@ margin-left:20%;
   padding-right: 0.5em;
   color:white;
 }
-  /*  end */
+
   
   /*  index section */
   .column1 {
@@ -464,8 +468,8 @@ margin-left:20%;
 	width: 154%;
 	height:420px;
 }
-/* end */
-/* education section */
+
+/*  this is the education section */
 .mySlides {
 	display:none;
 	width:200%;
@@ -493,11 +497,9 @@ margin-left:20%;
 	width:23%;
 	height:235px;
 }
-/*end */
 
 
-
-/*  sport section */
+/* the sport section */
 figure {
   float:left;
   
@@ -537,9 +539,9 @@ figure:hover figcaption {
 	width:100%;
 	height:400px;
 }
-/* end */
+
 	
-/*  contact section */
+/* the contact section */
 input[type=submit] {
     background-color: grey;
     color: white;
@@ -565,7 +567,6 @@ margin-top:-0%;
 margin-left:20%;
 	
 }
-/*  end */
 
 	
 }
