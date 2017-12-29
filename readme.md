@@ -62,7 +62,7 @@ These are the screenshots I took of my website in mobile tablet and desktop view
 <img src="https://user-images.githubusercontent.com/23192173/34440083-a334da0e-ecaa-11e7-91cc-6292c2cdad9a.PNG" width="350px" alt="Screenshot of HTML with errors validation" />
 
 HTML without error
-<img src="(https://user-images.githubusercontent.com/23192173/34440098-bef7625c-ecaa-11e7-9ad2-a39d8b9a43f6.PNG" width="350px" alt="Screenshot of HTML without error validation" />
+<img src="https://user-images.githubusercontent.com/23192173/34440098-bef7625c-ecaa-11e7-9ad2-a39d8b9a43f6.PNG" width="350px" alt="Screenshot of HTML without error validation" />
 
 CSS
  
