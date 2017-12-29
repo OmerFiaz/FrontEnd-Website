@@ -24,6 +24,7 @@ The images i have used for my slideshow in home and the education sections i hav
 The first problem i had was the radio button were not working properly to slove the issue i put the javascript code in a seperate js file.  
 Another problem  encountered with the second design was that I had added an extra bracket to the code which resulted in the mobile view not being responsive. once this bracket was removed the website was mobile responsive.
 Another problem which i faced was the slide show was not working on the home section i still dont know why it was not working all i did was to put the code back in couple of times. 
+ I also have the submit button on the contact me page which is still not working.
 
 
 
@@ -69,7 +70,13 @@ Javascript
 <img src="https://user-images.githubusercontent.com/23192173/34420245-6e6adb16-ec00-11e7-8161-034a6e08b540.PNG" width="400px" alt="Screenshot of javascript validation" />
 
 
-
+#### Wikipedia API
+ I have added a wkipedia API on my website  in the sports section
+ 
+ 
+ <img src="https://user-images.githubusercontent.com/23192173/34437130-92bcf1d2-ec93-11e7-9598-ffb13baaf8cf.PNG" width="400px" alt="Screenshot of wikipedia api" />
+ 
+ 
 #### Refercences 
 
 *Radio Button
