@@ -6,13 +6,13 @@ Omer Fiaz P114139410
 
 ####  Initial Designs
 ##### Movile View
-<img src="https://user-images.githubusercontent.com/23192173/34418781-ba60679c-ebf7-11e7-918e-aeb8a528e81a.jpeg" width="350px" alt=" This is Mobile View" />
+<img src="" width="350px" alt=" This is Mobile View" />
 
 ##### Tablet View
-<img src="https://user-images.githubusercontent.com/23192173/34418807-db52d05c-ebf7-11e7-84ea-1325fa4a38f5.jpeg" width="550px" alt=" This  is Tablet View" />
+<img src="" width="550px" alt=" This  is Tablet View" />
 
 ##### Desktop View
-<img src="https://user-images.githubusercontent.com/23192173/34418834-03ebaf16-ebf8-11e7-9a33-83b0337feddb.jpeg" width="500px" alt=" This is Desktop View" />
+<img src="" width="500px" alt=" This is Desktop View" />
 
 ####  User testing
 
