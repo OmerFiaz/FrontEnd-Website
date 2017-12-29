@@ -29,7 +29,7 @@ nav a {
   display: block;
 }
 a {
-  color: #000;/*this is the white */
+  color: #000;
   text-decoration: none;
 }
 h1 {
@@ -61,6 +61,7 @@ section {
 }
 footer{
 font-size: 1.5em;	
+color: white;
 }
 
 
