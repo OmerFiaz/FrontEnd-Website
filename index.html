@@ -3,14 +3,17 @@
     <head>
         <meta charset="utf-8">
 		<title>My journey so far</title>
+		<!-- this is a stylesheet link -->
 		<link rel="stylesheet" href="css/styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<header>
 			<div id="title">
+			    <!-- This the bitmoji (my pics) the logo -->
 				<img id="bit" src="imgs/Bitmoji.png" alt="bitmoji"/>
 			</div>
+			<!-- This the navigation bar -->
 			<a id="menu" href="#">Menu</a>
 			<nav id="nav-menu">
 				<a href="#home">Home</a>
@@ -20,6 +23,7 @@
 			</nav>
 		</header>
 		<main>
+		     <!-- This is the home section which contains slideshow, images and text -->
 			<section id="home">			
 				<div class="homeslideshow" >
 					<img class="myhomeSlides" src="imgs/sialkottower.png" alt="sialkottower" >
@@ -43,8 +47,10 @@
 						<p>I moved to England in summer of 2010 and since niversity</p>
 					</div>
 				</div>
+				<!-- This is the top button which will take the use on nav bar -->
 				<a class="top" href="#nav-menu">TOP</a>
 			</section>
+			<!-- This is the education section and it contain the slideshow with buttons and the hide button when you click on the text the module or the subject appears -->
 			<section id="education">
 				<section id="jsshowhide">
 					<h2>Education in Pakistan</h2>
@@ -128,6 +134,7 @@
 				</section>
 				<a class="top" href="#nav-menu">TOP</a>
 			</section>
+			<!-- This is the sports section it contains images with text when you hover over a image the text comes up and this section also has a wikipedia api -->
 			<section id="sports">
 				<h2>Sports</h2>
 				<div class="fav">
@@ -159,6 +166,7 @@
 				</div>
 				<br>
 				<br>
+				<!-- This is the wikipedia api -->
 				<form id="searchForm">
 					<label for="wikiQuery">Search about your sports: </label>
 					<input id="wikiQuery" type="text" placeholder="">
@@ -169,6 +177,7 @@
 				<ul id="demo"></ul>
 					<a class="top" href="#nav-menu">TOP</a>
 			</section>
+			<!-- This is the contact me section  -->
 			<section id="contact">
 				<h3>Contact Me</h3>
 				<div class="container">
@@ -188,11 +197,13 @@
 				<a class="top" href="#nav-menu">TOP</a>
 			</section>
 		</main>
+		<!-- These are javascript files -->
 		<script src="js/scripts.js"></script>
 		<script src="js/universitymodule.js"></script>
 		<script src="js/slideshow.js"></script>
 		<script src="js/homeslideshow.js"></script>
 		<script src="js/api.js"></script>	
+		<!-- This is the footer -->
 		<footer> © Created By Omer Fiaz 2017</footer>
 	</body>
 </html>
