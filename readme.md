@@ -81,6 +81,11 @@ Javascript
  
  <img src="https://user-images.githubusercontent.com/23192173/34437130-92bcf1d2-ec93-11e7-9598-ffb13baaf8cf.PNG" width="400px" alt="Screenshot of wikipedia api" />
  
+ #### Sitemap
+ 
+ 
+  <img src="https://user-images.githubusercontent.com/23192173/34443702-cd5ecc66-ecc0-11e7-90ed-f5e39d085897.PNG" width="400px" alt="Screenshot of sitemap"/>
+ 
  
 #### Refercences 
 
